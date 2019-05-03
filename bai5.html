@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let kt = parseFloat(prompt('Nhap vao diem kt:'));
+    let thigk = parseFloat(prompt('Nhap vao diem thi giua ky:'));
+    let thick = parseFloat(prompt('Nhap vao diem thi cuoi ky:'));
+    let dtb = (kt*1+thigk*2+thick*3)/6;
+    if(dtb <= 4.0){
+        alert('Hoc luc yeu');
+    }else if(dtb <= 6.0){
+        alert('Hoc luc trung binh');
+    }else if(dtb <= 8.0){
+        alert('Học luc kha');
+    }else {
+        alert('Học lực giỏi');
+    }
+</script>
+</body>
+</html>
